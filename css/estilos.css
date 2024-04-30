@@ -40,7 +40,7 @@ main, section, footer {
 .producto img, .oferta img, .inicio-imagen img {
   max-width: 50%;
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 button {
   background-color: #f06;
