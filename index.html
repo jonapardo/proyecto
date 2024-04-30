@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tienda de Lencería</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header>
+     <!-- Sección de inicio-->
+  <h1>Encuentra tu Estilo Perfecto</h1>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#coleccion">Colección</a>
+  <a href="#ofertas">Ofertas</a>
+  <a href="#ubicación">Ubicación</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+<main id="inicio">
+    
+    <h2>Bienvenidos a Nuestra Tienda</h2>
+    <div class="inicio-imagen">
+      <img src="imagenes/b.jpg" alt="Imagen de Bienvenida">
+      <p>¡Bienvenidos a nuestra tienda de lencería en línea! 
+        Aquí encontrarás una selección exquisita de prendas 
+        que celebran la belleza y el confort en cada detalle. 
+        Desde conjuntos de encaje delicados hasta piezas de 
+        seda suave, nuestra colección está diseñada para 
+        inspirar confianza y elegancia. Para toda la familia
+        !</p>
+    </div>
+    <div class="inicio-imagen">
+      <img src="imagenes/c.jpg" alt="Nueva Colección">
+      <p>Explora las últimas tendencias de la temporada.</p>
+    </div>
+
+  </main>
+  <!-- Sección de colección y productos-->
+
+  <section id="coleccion">
+    
+    <h2>Nuestra Colección</h2>
+    <div class="producto">
+      <img src="imagenes/d.jpg" alt="Lencería de Encaje Negro">
+      <h3>Lencería de Encaje Negro</h3>
+      <p>Precio: $49.99</p>
+      <button onclick="comprarProducto(1)">Comprar Ahora</button>
+    </div>
+    <div class="producto">
+      <img src="imagenes/p.jpeg" alt="Conjunto Rojo Pasión">
+      <h3>Conjunto Rojo Pasión</h3>
+      <p>Precio: $59.99</p>
+      <button onclick="comprarProducto(2)">Comprar Ahora</button>
+    </div>
+
+  </section>
+   <!-- Sección de ofertas -->
+  <section id="ofertas">
+
+    <h2>Ofertas Especiales</h2>
+    <div class="oferta">
+      <img src="imagenes/l.jpeg" alt="Oferta 1">
+      <p>¡Descuento del 20% en conjuntos de encaje!</p>
+    </div>
+    <div class="oferta">
+      <img src="imagenes/q.jpg" alt="Oferta 2">
+      <p>Medias en promoción</p>
+    </div>
+    <div class="oferta">
+        <img src="imagenes/i.jpeg" alt="Oferta 2">
+        <p>¡Boxer de hombre a 2x1!</p>
+      </div>
+  </section>
+ <!-- Sección de ubicaión -->
+  <section id="ubicación">
+  
+    <h2>Ubicación</h2>
+    <!-- Botón de ubicación -->
+    <button onclick="mostrarUbicacion()">Ver Ubicación</button>
+  
+    <div id="mapa">
+      <!-- Aquí va el iframe de la ubicación -->
+      <iframe
+       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7744742281257!2d-78.5256186!3d-0.268613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d598f6da0ab001%3A0xebbb6d78d286eb8d!2sHuamboya%20%26%20Buenavista%2C%20170141%20Quito!5e0!3m2!1ses!2sec!4v1714452838277!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- Horarios y dirección -->
+    <div id="horarios-direccion">
+      <h3>Horarios de Atención</h3>
+      <p>Lunes a Viernes: 9:00 - 17:00</p>
+      <p>Sábados: 10:00 - 14:00</p>
+      <p>Domingo: Cerrado</p>
+      <h3>Dirección</h3>
+      <p>Huamboya & Buenavista</p>
+    </div>
+  </section>
+
+<footer>
+  <!-- Sección Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <footer id="contacto">
+        <p>Envíanos un mensaje a jona_lenceria@gmail.com o llámanos al +593 979265723.
+            O dejanos un comentario en las siguiente casilla.
+        </p>
+      </footer>
+         <!-- Campos del formulario contacto -->
+    <form id="formulario-contacto">
+        
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="email" name="correo" placeholder="Correo">
+        <textarea name="mensaje" placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</footer>
+</section>
+<script src="javascript/javascript.js"></script>
+</body>
+</html>

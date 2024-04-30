@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fee;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #f8c;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+nav {
+  background-color: #f06;
+  padding: 10px 0;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+nav a:hover {
+  opacity: 0.7;
+}
+main, section, footer {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Estilos para productos, ofertas e inicio */
+.producto, .oferta, .inicio-imagen {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.producto img, .oferta img, .inicio-imagen img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+button {
+  background-color: #f06;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #f3a;
+}
+
+/* Estilos para la sección de contacto */
+footer {
+  background-color: #f8c;
+  color: #fff;
+  padding: 10px 0;
+}
+/* Estilo para el botón de ubicación */
+button[onclick="mostrarUbicacion()"] {
+  background-color: #4CAF50; /* Verde */
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+button[onclick="mostrarUbicacion()"]:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para el mapa y la información de horarios y dirección */
+#mapa iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  margin-top: 20px;
+}
+#horarios-direccion {
+  margin-top: 20px;
+}
+
+/* Ajustes de responsive design */
+@media (max-width: 768px) {
+  .producto, .oferta, .inicio-imagen {
+    width: 95%;
+  }
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* Estilos para la sección de contacto */
+footer {
+  background-color: #f8c;
+  color: #fff;
+  padding: 10px 0;
+}
+
+footer {
+  background-color:#f8c;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+}
