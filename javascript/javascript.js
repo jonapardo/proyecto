@@ -1,6 +1,6 @@
 // Función para manejar la compra de productos
 function comprarProducto(idProducto) {
-  // Aquí se agrega la lógica para añadir el producto 
+  // Aquí se agrega la lógica para añadir el productos 
   alert('¡Gracias por tu compra del producto ' + idProducto + '!');
 }
 
